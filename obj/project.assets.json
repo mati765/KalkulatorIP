@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "IPNetwork2/2.5.298": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net5.0/System.Net.IPNetwork.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Net.IPNetwork.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IPNetwork2/2.5.298": {
+      "sha512": "T3iTrSIOvVUiyyrxmrsTlCzMHWCOqzHExCkHrv64NtSd9x/Bh9vBHfEMHxYV+pax2f5yr8MrWzh9hntXHzVOMA==",
+      "type": "package",
+      "path": "ipnetwork2/2.5.298",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "ipnetwork2.2.5.298.nupkg.sha512",
+        "ipnetwork2.nuspec",
+        "lib/net40/System.Net.IPNetwork.dll",
+        "lib/net40/System.Net.IPNetwork.xml",
+        "lib/net45/System.Net.IPNetwork.dll",
+        "lib/net45/System.Net.IPNetwork.xml",
+        "lib/net46/System.Net.IPNetwork.dll",
+        "lib/net46/System.Net.IPNetwork.xml",
+        "lib/net47/System.Net.IPNetwork.dll",
+        "lib/net47/System.Net.IPNetwork.xml",
+        "lib/net5.0/System.Net.IPNetwork.dll",
+        "lib/net5.0/System.Net.IPNetwork.xml",
+        "lib/netstandard1.6/System.Net.IPNetwork.dll",
+        "lib/netstandard1.6/System.Net.IPNetwork.xml",
+        "lib/netstandard2.0/System.Net.IPNetwork.dll",
+        "lib/netstandard2.0/System.Net.IPNetwork.xml",
+        "lib/netstandard2.1/System.Net.IPNetwork.dll",
+        "lib/netstandard2.1/System.Net.IPNetwork.xml"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "IPNetwork2 >= 2.5.298"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Komputer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\KalkulatorIP v2\\KalkulatorIP v2.csproj",
+      "projectName": "KalkulatorIP v2",
+      "projectPath": "C:\\Users\\Komputer\\source\\repos\\KalkulatorIP v2\\KalkulatorIP v2.csproj",
+      "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Komputer\\source\\repos\\KalkulatorIP v2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "IPNetwork2": {
+            "target": "Package",
+            "version": "[2.5.298, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

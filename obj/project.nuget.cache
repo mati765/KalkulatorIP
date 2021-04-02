@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dGrbUZ8h7Yx3/Ps68GrgppzIp8t2HfweuoWHow6xs0gvo28j/dUBUeWCVclP99NRtIaQGrbTpvh9KQa2+CqyeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Komputer\\source\\repos\\KalkulatorIP v2\\KalkulatorIP v2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Komputer\\.nuget\\packages\\ipnetwork2\\2.5.298\\ipnetwork2.2.5.298.nupkg.sha512",
+    "C:\\Users\\Komputer\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
